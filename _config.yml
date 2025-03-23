@@ -1,6 +1,6 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: Pan Yixiao
+logo: https://hkcdn.yixiao.org
+description: Tech builds dreams, code changes the world.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
