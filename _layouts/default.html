@@ -50,18 +50,20 @@
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 
-<div style="display=none">
-            <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021005287号-8</a>
-        </div>
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const userLang = navigator.language || navigator.languages[0];
-                console.log("用户浏览器语言：", userLang);
-                if (userLang === "zh-CN" || userLang === "zh-Hans") {
-                    document.querySelector(".beian").style.display = "block";
-                }
-            });
-        </script>
+<div class="beian" style="display: none;">
+    <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021005287号-8</a>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const userLang = navigator.language || navigator.languages[0];
+        console.log("用户浏览器语言：", userLang);
+        if (userLang === "zh-CN" || userLang === "zh-Hans") {
+            document.querySelector(".beian").style.display = "block";
+        }
+    });
+</script>
+
 
         
       </footer>
