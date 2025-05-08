@@ -1,9 +1,5 @@
-# 禁止 Archive.org 及所有带 “archive” 的爬虫
-User-agent: *archive*
-Disallow: /
-
-# 禁止 Perma.cc 等其他存档服务
-User-agent: perma
+# 阻止 Internet Archive（Archive.org）
+User-agent: ia_archiver
 Disallow: /
 
 # 允许其他所有爬虫
