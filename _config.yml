@@ -4,20 +4,3 @@ description: Tech builds dreams, code changes the world.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-
-# 构建设置
-plugins:
-  - jekyll-seo-tag
-
-# 排除不需要构建的文件
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - script/
-  - docs/
-  - jekyll-theme-minimal.gemspec
